@@ -21,7 +21,7 @@ public class TwoDimensionalArray {
             }
             System.out.println();
         }
-        System.out.println("Some of all the elements is: " + total);
+        System.out.println("Some of all elements is: " + total);
 
     }
 }
