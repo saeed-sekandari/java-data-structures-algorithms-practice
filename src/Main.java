@@ -20,5 +20,7 @@ public class Main {
         int[] shiftedArray = RandomlyShuffling.arrayShifting();
         System.out.println("The shifted array is " + Arrays.toString(shiftedArray));
 
+
+
     }
 }
