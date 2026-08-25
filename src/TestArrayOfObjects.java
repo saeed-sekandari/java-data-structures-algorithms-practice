@@ -8,7 +8,7 @@ public class TestArrayOfObjects {
         }
         for(int i=0; i<circles.length;i++){
             System.out.println("Circle " + (i+1));
-            System.out.println("Radius " + circles[i].radius);
+            System.out.println("Radius " + circles[i].getRadius());
             System.out.println("Area " + circles[i].getArea());
             System.out.println("Perimeter " + circles[i].getPerimeter());
             System.out.println();

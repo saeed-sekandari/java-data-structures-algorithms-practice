@@ -1,17 +1,32 @@
-public class Circle {
-    double radius = 1;
-    Circle(){
+public class Circle extends GeometricObject {
+    private double radius;
+    //Construct the circle with no arguments
+    public Circle(){
+        radius = 1;
     }
-    Circle(double newRadius){
-        radius = newRadius;
+    //Construct the circle with radius
+    public Circle(double radius){
+        this.radius = radius;
     }
-    double getArea(){
+    //return the radius
+    public double getRadius(){
+        return radius;
+    }
+    //update the radius
+    public void setRadius(double radius){
+        this.radius = radius;
+    }
+    //return the area
+    public double getArea(){
         return radius * radius * Math.PI;
     }
-    double getPerimeter(){
+    //return the perimeter
+    public double getPerimeter(){
         return 2 * Math.PI * radius;
     }
-    void setRadius(double newRadius){
-        radius = newRadius;
+    //return the diameter
+    public double getDiameter(){
+        return 2 * radius;
     }
+
 }
