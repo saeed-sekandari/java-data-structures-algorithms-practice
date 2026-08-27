@@ -28,6 +28,7 @@ public class LibraryItem {
         this.itemId = itemId;
     }
     //return a string statement
+    @Override
     public String toString(){
      return "Title: " + getTitle() + ", Item ID: " + itemId;
     }
