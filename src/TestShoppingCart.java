@@ -16,5 +16,6 @@ public class TestShoppingCart {
         //remove item
         shoppingCart.removeItem("Iphone 16 pro max case");
         shoppingCart.printItems();
+        shoppingCart.findItem("Pencil");
     }
 }

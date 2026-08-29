@@ -28,6 +28,10 @@ public class ShoppingCart {
     public int getNumberOfItems(){
         return items.size();
     }
+    //find a specific item
+    public void findItem(String itemName){
+        System.out.println(items.contains(itemName));
+    }
     //print items
     public void printItems(){
         for(int i=0; i<items.size(); i++){
